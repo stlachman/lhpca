@@ -1,4 +1,48 @@
+* {
+    font-family:'Raleway', sans-serif;
+}
+
+
+body {
+    background: #92DBFF;
+    /*height: 100%;*/
+    overflow: hidden;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
 .jumbotron {
-    background-color: #92DBFF;
+    background: #92DBFF;
     color: dimgrey;
+}
+
+#header {
+    position: relative;
+    padding: 10px 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main-nav {
+    display: block;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+  .nav>li>a:hover {
+   color: black;
+  } 
+
+  .nav-tabs>li>a:hover {
+    border-color: #FFB692;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #FFB692;
+}
+
+.content-b {
+    background: #FFF;
 }
