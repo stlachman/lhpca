@@ -33,6 +33,12 @@ body {
   .nav>li>a:hover {
    color: black;
   } 
+ a {
+     color: #000;
+ }
+ a:hover {
+     color: #FFB692;
+ }
 
   .nav-tabs>li>a:hover {
     border-color: #FFB692;
