@@ -4,20 +4,50 @@
 
 
 body {
-    background: #92DBFF;
     /*height: 100%;*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*padding: 0;*/
-    /*margin: 0;*/
+    margin: 0;
 }
 .jumbotron {
     background: #92DBFF;
     color: dimgrey;
 }
 
+@media only screen and (max-width: 767px) {
+   .navigation_header {
+       min-height: 52px;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   .navigation_header {
+       padding: 10px 20px;
+       min-height: 62px;
+   }
+}
+
+@media only screen and (max-width: 1024px) {
+   .navigation_header {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+}
+
+.navigation_header {
+    background: #92DBFF;
+    padding: 10px 50px;
+    width: 100%;
+    min-height: 66px;
+    z-index: 1050;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 #header {
     position: relative;
-    padding: 10px 0;
+    padding: 10px 20px;
+    min-height: 70px;
 }
 
 .wrapper {
