@@ -2,6 +2,9 @@
     margin-bottom: 0;
 }
 
+html, body {
+    height: 100%;
+}
 
 body {
    background: #777;
@@ -11,11 +14,12 @@ body {
 
 h1, h2 {
     font-weight: bold;
+    color: #fafafa;
 }
 
 p {
     font-size: 16px;
-    color: #cdcdcd;
+    color: #fafafa;
 }
 
 .jumbotron {
@@ -44,6 +48,10 @@ p {
 }
 
 a {
+    color: #056082;
+}
+
+a:hover {
     color: #056082;
 }
 
@@ -93,3 +101,46 @@ a {
     top: 0;
     width: 100%;
 }
+
+
+
+.maps {
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 769px) {
+    .message-container {
+        padding-bottom: 30px;
+    }
+    .maps {
+        padding-bottom: 0;
+    }
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -102px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.main-footer,
+.page-wrap:after {
+    /* .push must be same height as footer */
+    height: 102px;
+}
+
+
+.main-footer {
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    background-color: #2b2b2b;
+
+}
+
+
+
