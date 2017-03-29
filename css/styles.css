@@ -127,6 +127,22 @@ a:hover {
     display: block;
 }
 
+.sbtn {
+    padding: 1.05rem 2.75rem;
+    color: #101010;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    transition: color .4s, border .6s;
+}
+
+.sbtn:hover {
+    padding: 1.05rem 2.75rem;
+    background-color: #fff;
+    color: #056082;
+    border: .1rem solid #056082;
+}
+
 .main-footer,
 .page-wrap:after {
     /* .push must be same height as footer */
