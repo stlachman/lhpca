@@ -40,7 +40,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    background: #056082;
+    color: #056082;
 }
 
 .navbar-inverse .navbar-brand {
@@ -72,4 +72,9 @@ p {
 
 .glyphicon-large {
     font-size: 100px;
+}
+
+.google-map {
+    width: 60%;
+    max-width: 100%;
 }
