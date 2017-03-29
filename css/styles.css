@@ -43,6 +43,10 @@ p {
     background: #056082;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #ccc;
+}
+
 .dropdown-menu {
     background: #056082;
     border-radius: 0;
