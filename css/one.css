@@ -1,49 +1,67 @@
-* {
-    box-sizing: border-box;
-}
-
-#sidebar {
-    width: 300px;
-    float: left;
-}
-
-#content {
-    width: 724px;
-    float: right;
-    padding-left: 24px;
-}
-
-/* Navigation */
-nav {
-    width: 300px;
-    background-color: rgb(240,240,240);
-    border: solid 1px rgb(220, 220, 220);
-    padding: 0 12px;
-}
-
-nav.stick {
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    margin-top: 12px;
-}
-
-nav ul {
-    list-style-type: none;
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+    
+    color: #555;
 }
 
-nav li {
 
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
-nav li a {
-    color: rgb(50,50,50);
-    font-weight: 700;
+h1,
+h2,
+strong {
+    color: #333;
 }
 
-a.nav-active {
-    color: #ccc;
+
+a {
+  color: #D7D7D7;
 }
 
+.hero {
+    background-color: #263d36;
+    background-image: url("lhpca-hero.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    max-width: none;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+header a {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background: #e81c4f;
+    color: white;
+}
+
+main {
+    margin: 0 auto;
+    padding: 4em 1em;
+    max-width: 50em;
+}
