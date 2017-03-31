@@ -7,7 +7,6 @@ body {
     padding: 0;
     font-family: 'Muli', sans-serif;
     line-height: 1.5;
-    
     color: #555;
 }
 
@@ -25,7 +24,8 @@ strong {
 
 
 a {
-  color: #D7D7D7;
+  color: #a8a8a8;
+  text-decoration: none;
 }
 
 .hero {
@@ -35,7 +35,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    padding: 10vw 2em;
+    padding: 18vw 2em;
     max-width: none;
     text-align: center;
 }
@@ -58,7 +58,7 @@ header a {
 }
 
 header a:hover {
-    color: #dcdcdc;
+    color: #a8a8a8 ;
 }
 
 main {
@@ -68,11 +68,30 @@ main {
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
+    text-align: center;
+    padding-top:  35px;
+}
+
+.nav-links {
+    border: 1px solid #263d36;
+    padding-left: 0;
 }
 
 .nav-links li {
+    font-size: 0.875em;
     display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    transition-property: color;
+    transition: none 200ms ease-out
+}
+
+.nav-links a:hover {
+    color: #868686;
+}
+
+@media screen and (min-width: 733px) {
+    .nav-links li {
+        font-size: 1em;
+    }
 }
