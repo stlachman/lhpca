@@ -73,8 +73,16 @@ main {
 }
 
 .nav-links {
-    border: 1px solid #263d36;
+    /*border: 1px solid #263d36;*/
     padding-left: 0;
+}
+
+hr {
+    background-color: #263d36;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1rem 0;
 }
 
 .nav-links li {
@@ -88,6 +96,17 @@ main {
 
 .nav-links a:hover {
     color: #868686;
+}
+
+.footer-text a {
+   color: #fff;
+}
+
+.main-footer {
+    padding-top: 36px;
+    height: 100px;
+    background-color: #263d36;
+    text-align: center;
 }
 
 @media screen and (min-width: 733px) {
