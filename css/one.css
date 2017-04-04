@@ -38,6 +38,7 @@ a {
     padding: 18vw 2em;
     max-width: none;
     text-align: center;
+    position: relative;
 }
 
 header h1 {
@@ -68,12 +69,13 @@ main {
 }
 
 .navbar {
-    text-align: center;
-    padding-top:  35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top:  1em;
 }
 
 .nav-links {
-    /*border: 1px solid #263d36;*/
     padding-left: 0;
 }
 
