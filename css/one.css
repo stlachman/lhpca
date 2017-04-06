@@ -90,14 +90,66 @@ hr {
 .nav-links li {
     font-size: 0.875em;
     display: inline-block;
-    padding: 15px;
+    padding: 0.8em;
     text-transform: uppercase;
     transition-property: color;
-    transition: none 200ms ease-out
+    transition: none 0.3s ease-out;
 }
 
 .nav-links a:hover {
     color: #868686;
+}
+
+.form-contact {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+
+.form-contact div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+}
+
+input, 
+textarea {
+    font: 1em 'Muli', sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    outline: #263d36;
+    border-color: #263d36;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+#contact-submit {
+    margin-left: .5em;
+    padding: 0.95em 1.95em;
+    border-radius: 14em;
+    border: 0.1em solid #436c60;
+    background: #436c60;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    transition: background .4s, border .4s;
+    transition-timing-function: ease-in-out;
+}
+
+#contact-submit:hover {
+    border: 0.1em solid #4c796b;
+    background: #4c796b;
 }
 
 .footer-text a {
